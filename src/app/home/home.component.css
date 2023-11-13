@@ -1,0 +1,32 @@
+h1{
+    background: linear-gradient(5deg, #5cff1c, #4668ff);
+    color: transparent;
+    -webkit-background-clip: text;
+    margin-top: 100px;
+    text-align: center;
+    font-family: segoe ui;
+    animation: incdec 1s infinite;
+}
+@keyframes incdec{
+    0%{
+        font-size: 50px;
+    }
+    50%{
+        font-size: 52px;
+    }
+    100%{
+        font-size: 50px;
+    }
+}
+
+div{
+    width: 300px;
+    margin: auto;
+    margin-top: 50px;
+    padding: 10px;
+}
+div input,div button{
+    width: 100%;
+    border-radius: 5px;
+    padding: 7px 0px;
+}

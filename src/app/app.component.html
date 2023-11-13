@@ -1,0 +1,12 @@
+<nav>
+  <a routerLink="">Home</a>
+  <a routerLink="about">About</a>
+  <a routerLink="profile">Profile</a>
+  <a routerLink="products">Products</a>
+  <a routerLink="products-details">Pro-Details</a>
+  <a routerLink="products-list">Pro-List</a>
+  <p *ngIf="checkAuth()">Hi, Ram</p>
+  <button *ngIf="checkAuth()" (click)="onLogout()">LOGOUT</button>
+</nav>
+  
+<router-outlet></router-outlet>
